@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FONEXPO2024.DataAccess\FONEXPO2024.DataAccess.csproj" />
+    <ProjectReference Include="..\FONEXPO2024.Interfaces\FONEXPO2024.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

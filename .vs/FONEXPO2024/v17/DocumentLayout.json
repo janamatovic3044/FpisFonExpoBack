@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\FPIS FON EXPO 2024\\FONEXPO2024-Back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A108C1D4-6662-4A0C-A903-34CC0394FDAE}|FONEXPO2024.Services\\FONEXPO2024.Services.csproj|c:\\users\\administrator\\desktop\\fpis fon expo 2024\\fonexpo2024-back\\fonexpo2024.services\\sevices\\registracijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A108C1D4-6662-4A0C-A903-34CC0394FDAE}|FONEXPO2024.Services\\FONEXPO2024.Services.csproj|solutionrelative:fonexpo2024.services\\sevices\\registracijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3D06EB-73C4-49F3-A699-4E4CBB8AA05F}|FONEXPO2024.Domain.Model\\FONEXPO2024.Domain.Model.csproj|c:\\users\\administrator\\desktop\\fpis fon expo 2024\\fonexpo2024-back\\fonexpo2024.domain.model\\dto\\registracijarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3D06EB-73C4-49F3-A699-4E4CBB8AA05F}|FONEXPO2024.Domain.Model\\FONEXPO2024.Domain.Model.csproj|solutionrelative:fonexpo2024.domain.model\\dto\\registracijarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F36C304-4E72-4959-A73F-E4727440EF53}|FONEXPO2024.API\\FONEXPO2024.API.csproj|c:\\users\\administrator\\desktop\\fpis fon expo 2024\\fonexpo2024-back\\fonexpo2024.api\\controllers\\prijavacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F36C304-4E72-4959-A73F-E4727440EF53}|FONEXPO2024.API\\FONEXPO2024.API.csproj|solutionrelative:fonexpo2024.api\\controllers\\prijavacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistracijaRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FPIS FON EXPO 2024\\FONEXPO2024-Back\\FONEXPO2024.Domain.Model\\DTO\\RegistracijaRequestDTO.cs",
+              "RelativeDocumentMoniker": "FONEXPO2024.Domain.Model\\DTO\\RegistracijaRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FPIS FON EXPO 2024\\FONEXPO2024-Back\\FONEXPO2024.Domain.Model\\DTO\\RegistracijaRequestDTO.cs",
+              "RelativeToolTip": "FONEXPO2024.Domain.Model\\DTO\\RegistracijaRequestDTO.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwF8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T17:21:59.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistracijaService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FPIS FON EXPO 2024\\FONEXPO2024-Back\\FONEXPO2024.Services\\Sevices\\RegistracijaService.cs",
+              "RelativeDocumentMoniker": "FONEXPO2024.Services\\Sevices\\RegistracijaService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FPIS FON EXPO 2024\\FONEXPO2024-Back\\FONEXPO2024.Services\\Sevices\\RegistracijaService.cs",
+              "RelativeToolTip": "FONEXPO2024.Services\\Sevices\\RegistracijaService.cs",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAiwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T22:02:25.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrijavaController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\FPIS FON EXPO 2024\\FONEXPO2024-Back\\FONEXPO2024.API\\Controllers\\PrijavaController.cs",
+              "RelativeDocumentMoniker": "FONEXPO2024.API\\Controllers\\PrijavaController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\FPIS FON EXPO 2024\\FONEXPO2024-Back\\FONEXPO2024.API\\Controllers\\PrijavaController.cs",
+              "RelativeToolTip": "FONEXPO2024.API\\Controllers\\PrijavaController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwGMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T22:02:18.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FONEXPO2024.API", "FONEXPO2024.API\FONEXPO2024.API.csproj", "{0F36C304-4E72-4959-A73F-E4727440EF53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FONEXPO2024.Interfaces", "FONEXPO2024.Interfaces\FONEXPO2024.Interfaces.csproj", "{86239FEF-A968-4FBE-AC68-8B5BBD6C3B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FONEXPO2024.Services", "FONEXPO2024.Services\FONEXPO2024.Services.csproj", "{A108C1D4-6662-4A0C-A903-34CC0394FDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FONEXPO2024.DataAccess", "FONEXPO2024.DataAccess\FONEXPO2024.DataAccess.csproj", "{4206C7A9-1D3D-490C-9B9E-EDC7C9C66104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FONEXPO2024.Domain.Model", "FONEXPO2024.Domain.Model\FONEXPO2024.Domain.Model.csproj", "{9D3D06EB-73C4-49F3-A699-4E4CBB8AA05F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F36C304-4E72-4959-A73F-E4727440EF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F36C304-4E72-4959-A73F-E4727440EF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F36C304-4E72-4959-A73F-E4727440EF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F36C304-4E72-4959-A73F-E4727440EF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86239FEF-A968-4FBE-AC68-8B5BBD6C3B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86239FEF-A968-4FBE-AC68-8B5BBD6C3B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86239FEF-A968-4FBE-AC68-8B5BBD6C3B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86239FEF-A968-4FBE-AC68-8B5BBD6C3B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A108C1D4-6662-4A0C-A903-34CC0394FDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A108C1D4-6662-4A0C-A903-34CC0394FDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A108C1D4-6662-4A0C-A903-34CC0394FDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A108C1D4-6662-4A0C-A903-34CC0394FDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4206C7A9-1D3D-490C-9B9E-EDC7C9C66104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4206C7A9-1D3D-490C-9B9E-EDC7C9C66104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4206C7A9-1D3D-490C-9B9E-EDC7C9C66104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4206C7A9-1D3D-490C-9B9E-EDC7C9C66104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3D06EB-73C4-49F3-A699-4E4CBB8AA05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3D06EB-73C4-49F3-A699-4E4CBB8AA05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3D06EB-73C4-49F3-A699-4E4CBB8AA05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3D06EB-73C4-49F3-A699-4E4CBB8AA05F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

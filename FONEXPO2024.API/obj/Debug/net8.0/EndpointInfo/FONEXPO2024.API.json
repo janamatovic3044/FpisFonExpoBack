@@ -1,0 +1,635 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Fon Expo 2024 API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Manifestacija/ManifestacijaInfo": {
+      "get": {
+        "tags": [
+          "Manifestacija"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ManifestacijaInfoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ManifestacijaInfoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ManifestacijaInfoDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Registracija/Registracija": {
+      "post": {
+        "tags": [
+          "Registracija"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistracijaRequestDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistracijaRequestDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistracijaRequestDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrationResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrationResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrationResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Registracija/CancelPrijava": {
+      "put": {
+        "tags": [
+          "Registracija"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginPrijava"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginPrijava"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginPrijava"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CancelPrijavaResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CancelPrijavaResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CancelPrijavaResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Registracija/Login": {
+      "put": {
+        "tags": [
+          "Registracija"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginPrijava"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginPrijava"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginPrijava"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrijavaResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrijavaResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrijavaResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Registracija/IzracunajCenu": {
+      "put": {
+        "tags": [
+          "Registracija"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CenaRacunanjeDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CenaRacunanjeDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CenaRacunanjeDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Registracija/UpdatePrijava": {
+      "put": {
+        "tags": [
+          "Registracija"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePrijavaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePrijavaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePrijavaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrijavaResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrijavaResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrijavaResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CancelPrijavaResponseDto": {
+        "type": "object",
+        "properties": {
+          "isCancelled": {
+            "type": "boolean"
+          },
+          "error": {
+            "$ref": "#/components/schemas/ErrorDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CenaRacunanjeDTO": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "brojOsoba": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "expoDanIDs": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "promoKod": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ErrorDto": {
+        "type": "object",
+        "properties": {
+          "details": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExpoDanDto": {
+        "type": "object",
+        "properties": {
+          "expoDanID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "datum": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tema": {
+            "type": "string",
+            "nullable": true
+          },
+          "izlozbe": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IzlozbaDto"
+            },
+            "nullable": true
+          },
+          "slobodnaMesta": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IzlozbaDto": {
+        "type": "object",
+        "properties": {
+          "izlozbaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "umetnik": {
+            "type": "string",
+            "nullable": true
+          },
+          "vremeOtvaranja": {
+            "type": "string",
+            "format": "date-span"
+          },
+          "vremeZatvaranja": {
+            "type": "string",
+            "format": "date-span"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginPrijava": {
+        "required": [
+          "email",
+          "token"
+        ],
+        "type": "object",
+        "properties": {
+          "token": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ManifestacijaInfoDto": {
+        "type": "object",
+        "properties": {
+          "manifestacijaID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "naziv": {
+            "type": "string",
+            "nullable": true
+          },
+          "grad": {
+            "type": "string",
+            "nullable": true
+          },
+          "lokacija": {
+            "type": "string",
+            "nullable": true
+          },
+          "datumPocetka": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "datumZavrsetka": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dodatneInfo": {
+            "type": "string",
+            "nullable": true
+          },
+          "maxPosetilacaPoDanu": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "expoDani": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExpoDanDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrijavaResponseDto": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusPrijave": {
+            "type": "string",
+            "nullable": true
+          },
+          "datumPrijave": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "originalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "finalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "isEarlyBird": {
+            "type": "boolean"
+          },
+          "brojOsoba": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "korisnikID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ime": {
+            "type": "string",
+            "nullable": true
+          },
+          "prezime": {
+            "type": "string",
+            "nullable": true
+          },
+          "error": {
+            "$ref": "#/components/schemas/ErrorDto"
+          },
+          "isCancelled": {
+            "type": "boolean"
+          },
+          "expoDanIDs": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistracijaRequestDTO": {
+        "required": [
+          "adresa1",
+          "brojOsoba",
+          "drzava",
+          "email",
+          "expoDanIDs",
+          "ime",
+          "mesto",
+          "postanskiBroj",
+          "prezime"
+        ],
+        "type": "object",
+        "properties": {
+          "ime": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "prezime": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "profesija": {
+            "type": "string",
+            "nullable": true
+          },
+          "adresa1": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "adresa2": {
+            "type": "string",
+            "nullable": true
+          },
+          "postanskiBroj": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "mesto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "drzava": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "emailPotvrdjen": {
+            "type": "boolean"
+          },
+          "expoDanIDs": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          "brojOsoba": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "promoKod": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistrationResponseDto": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "originalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "finalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "generatedPromoKod": {
+            "type": "string",
+            "nullable": true
+          },
+          "error": {
+            "$ref": "#/components/schemas/ErrorDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePrijavaDTO": {
+        "required": [
+          "email",
+          "token"
+        ],
+        "type": "object",
+        "properties": {
+          "token": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "brojOsoba": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "expoDanIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

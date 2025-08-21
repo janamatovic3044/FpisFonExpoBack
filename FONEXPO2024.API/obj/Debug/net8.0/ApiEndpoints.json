@@ -1,0 +1,152 @@
+[
+  {
+    "ContainingType": "FONEXPO2024.API.Controllers.ManifestacijaController",
+    "Method": "Get",
+    "RelativePath": "api/Manifestacija/ManifestacijaInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "FONEXPO2024.Domain.Model.DTO.ManifestacijaInfoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FONEXPO2024.API.Controllers.RegistracijaController",
+    "Method": "CancelPrijava",
+    "RelativePath": "api/Registracija/CancelPrijava",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FONEXPO2024.Domain.Model.DTO.LoginPrijava",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FONEXPO2024.Domain.Model.DTO.CancelPrijavaResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FONEXPO2024.API.Controllers.RegistracijaController",
+    "Method": "IzracunajCenu",
+    "RelativePath": "api/Registracija/IzracunajCenu",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FONEXPO2024.Domain.Model.DTO.CenaRacunanjeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FONEXPO2024.API.Controllers.RegistracijaController",
+    "Method": "Login",
+    "RelativePath": "api/Registracija/Login",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FONEXPO2024.Domain.Model.DTO.LoginPrijava",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FONEXPO2024.Domain.Model.DTO.PrijavaResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FONEXPO2024.API.Controllers.RegistracijaController",
+    "Method": "Get",
+    "RelativePath": "api/Registracija/Registracija",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FONEXPO2024.Domain.Model.DTO.RegistracijaRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FONEXPO2024.Domain.Model.DTO.RegistrationResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FONEXPO2024.API.Controllers.RegistracijaController",
+    "Method": "UpdatePrijava",
+    "RelativePath": "api/Registracija/UpdatePrijava",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FONEXPO2024.Domain.Model.DTO.UpdatePrijavaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FONEXPO2024.Domain.Model.DTO.PrijavaResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
